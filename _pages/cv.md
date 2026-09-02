@@ -9,56 +9,56 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+<h2>Education</h2>
+<ul>
+  <li><strong>Ph.D. in Computer Science</strong> (2024&ndash;Present), Hong Kong University of Science and Technology</li>
+  <li><strong>B.Eng.</strong> (2020&ndash;2024), Shanghai Jiao Tong University</li>
+</ul>
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+<h2>Research Experience</h2>
+<ul>
+  <li><strong>Research Intern</strong>, MINIMAX (February 2025 &ndash; Present)</li>
+  <li><strong>Research Intern</strong>, Tencent WXG (June 2024 &ndash; September 2024)<br>Advisor: Zifei Shan</li>
+  <li><strong>Research Intern</strong>, Shanghai AI Lab (June 2023 &ndash; December 2023)<br>Advisor: Prof. Yu Cheng</li>
+</ul>
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+<h2>Research Interests</h2>
+<ul>
+  <li>Natural Language Processing</li>
+  <li>Machine Learning</li>
+  <li>LLM Reasoning and Reinforcement Learning</li>
+  <li>Hallucination in Vision-Language Models</li>
+  <li>LLM Truthfulness and Interpretability</li>
+</ul>
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+<h2>Honors &amp; Awards</h2>
+<ul>
+  <li>Zhiyuan Honor Scholarship, Shanghai Jiao Tong University</li>
+</ul>
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<h2>Publications</h2>
+<p><strong>SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond</strong><br>
+<em>Junteng Liu, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He</em><br>
+arXiv, 2025</p>
+
+<p><strong>On the Perception Bottleneck of VLMs for Chart Understanding</strong><br>
+<em>Junteng Liu, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He</em><br>
+arXiv, 2025</p>
+
+<p><strong>On the Universal Truthfulness Hyperplane Inside LLMs</strong><br>
+<em>Junteng Liu, Shiqi Chen, Yu Cheng, Junxian He</em><br>
+EMNLP 2024</p>
+
+<p><strong>In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation</strong><br>
+<em>Shiqi Chen, Miao Xiong, Junteng Liu, Zhengxuan Wu, Teng Xiao, Siyang Gao, Junxian He</em><br>
+ICML 2024</p>
+
+<p><strong>C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models</strong><br>
+<em>Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, Junteng Liu, Chuancheng Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, Junxian He</em><br>
+NeurIPS 2023</p>
+
+<p><strong>Composing Parameter-Efficient Modules with Arithmetic Operations</strong><br>
+<em>Jinghan Zhang, Shiqi Chen, Junteng Liu, Junxian He</em><br>
+NeurIPS 2023</p>
+
+<p>You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</p>
